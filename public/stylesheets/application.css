@@ -1,0 +1,13 @@
+#message-box {
+  height: 300px;
+  overflow: auto; scroll;
+  background-color: #989898;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.submited-message {
+  padding-left: 10px;
+}

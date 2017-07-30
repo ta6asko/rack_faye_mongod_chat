@@ -1,0 +1,19 @@
+%html
+  %head
+    %title Chat
+    %link(rel='stylesheet' type='text/css' media='screen' href='/stylesheets/application.css')
+    %link(href="/stylesheets/bootstrap.min.css" media="screen" rel="stylesheet")
+    %script(type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js")
+    %script(type="text/javascript" src="http://localhost:9292/faye/client.js")
+  %body
+    .container
+      .row
+        .col-lg-8.col-lg-offset-2
+          #message-box.row-fluid
+          .row-fluid
+            %form#new-message(role='form')
+              .form-group
+                %input#new-message-content.form-control(placeholder='Enter message' type='content' autocomplete='off')
+              %button.btn.btn-default(type='submit') Submit
+    %script(src='/stylesheets/application.js')
+
